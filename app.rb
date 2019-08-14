@@ -4,6 +4,13 @@ class App < Sinatra::Base
 		erb :hello
 	end
 
+	get '/' do
+		erb :goodbye
+	end
+	
+	get '/' do
+	  erb :date
+	end
 
 end
 
